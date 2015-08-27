@@ -13,10 +13,13 @@
     "webpack": "^1.12.0",
     "babel-core": "^5.8.22"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.4.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node server.js"
+    "start": "babel-node server.js",
+    "startdev": "nodemon --exec babel-node server.js"
   },
   "keywords": [
     "react",
